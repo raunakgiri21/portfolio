@@ -1,7 +1,13 @@
+import { useState } from "react";
 import Title from "../Layouts/Title";
+import Achievement from "./Achievement";
 import Education from "./Education";
+import Experience from "./Experience";
+import Skills from "./Skills";
 
 const Resume = () => {
+  const [resumeState, setResumeState] = useState(1);
+  const resume = [<Education />, <Skills />, <Experience />];
   return (
     <section
       id="resume"
@@ -14,14 +20,40 @@ const Resume = () => {
         />
       </div>
       <div>
-        <ul className="w-full grid grid-cols-4">
-          <li className="resumeLi">Education</li>
-          <li className="resumeLi">Professional Skill</li>
-          <li className="resumeLi">Experience</li>
-          <li className="resumeLi">Achievements</li>
+        <ul className="w-full grid grid-cols-3">
+          <li
+            className={`${
+              resumeState === 1
+                ? "border-designcolor rounded-lg"
+                : "border-transparent"
+            } resumeLi`}
+            onClick={() => setResumeState(1)}
+          >
+            Education
+          </li>
+          <li
+            className={`${
+              resumeState === 2
+                ? "border-designcolor rounded-lg"
+                : "border-transparent"
+            } resumeLi`}
+            onClick={() => setResumeState(2)}
+          >
+            Professional Skill
+          </li>
+          <li
+            className={`${
+              resumeState === 3
+                ? "border-designcolor rounded-lg"
+                : "border-transparent"
+            } resumeLi`}
+            onClick={() => setResumeState(3)}
+          >
+            Experience
+          </li>
         </ul>
       </div>
-      <Education />
+      {resume[resumeState - 1]}
     </section>
   );
 };
