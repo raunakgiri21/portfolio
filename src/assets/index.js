@@ -7,5 +7,6 @@ import netflix from "./images/netflix.png";
 import nike from "./images/nike.png";
 import aisumz from "./images/aisumz.png";
 import weather from "./images/weather.png";
+import contact from "./images/contact.jpg";
 
-export { logo, my_img, my_casual_img, foodstrap, twitter, netflix, nike, aisumz, weather};
+export { logo, my_img, my_casual_img, foodstrap, twitter, netflix, nike, aisumz, weather, contact };
