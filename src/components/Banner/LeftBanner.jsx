@@ -35,7 +35,7 @@ const LeftBanner = () => {
         <h4 className="text-lg font-normal">WELCOME TO MY PORTFOLIO</h4>
         <h1 className="text-6xl font-bold text-white">
           Hi, I'm{" "}
-          <span className="text-designcolor capitalize"> Raunak Giri</span>
+          <span className="text-designcolor capitalize">Raunak Giri</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
           a <span>{text}</span>
