@@ -39,7 +39,7 @@ const Resume = () => {
             } resumeLi`}
             onClick={() => setResumeState(2)}
           >
-            Professional Skill
+            Skills
           </li>
           <li
             className={`${

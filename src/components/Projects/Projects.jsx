@@ -22,7 +22,7 @@ const Projects = () => {
           description="My Projects"
         />
       </div>
-      <div className="grid grid-cols-3 gap-14">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectCard
           title="FOODSTRAP e-Commerce"
           des="lorem, ipsum dolor sit smasdkn fiir3f3 iurfnio3f iornfoi3nrpowef oiuhrfoinerf oiunfr3"

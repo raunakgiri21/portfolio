@@ -12,7 +12,7 @@ const Skills = () => {
           <p className="text-sm text-designcolor tracking-[4px]">Features</p>
           <h2 className="text-3xl md:text-4xl font-bold">Development Skill</h2>
         </div>
-        <div className="flex flex-col gap-6 w-1/2">
+        <div className="flex flex-col gap-6 w-full md:w-1/2">
           <div className="overflow-x-hidden">
             <p className="text-sm uppercase font-medium">Javascript</p>
             <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
