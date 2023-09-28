@@ -10,13 +10,12 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <div className="w-full h-24 sticky top-0 mx-auto flex justify-between items-center font-titleFont z-50 border-b-[1px] border-b-gray-600 bg-bodyColor">
+    <div className="w-full h-[76px] md:h-24 sticky top-0 mx-auto flex justify-between items-center font-titleFont z-50 border-b-[1px] border-b-gray-600 bg-bodyColor">
       <div className="flex justify-between items-center gap-2">
         <img
           src={logo}
           alt="logo"
-          width={70}
-          height={70}
+          className="w-[60px] h-[60px] md:w-[70px] md:h-[70px]"
         />
       </div>
       <div>
@@ -46,13 +45,13 @@ const Navbar = () => {
           <FiMenu />
         </span>
         {showMenu && (
-          <div className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide">
+          <div className="w-[80%] h-screen overflow-scroll absolute top-0 -left-3 bg-gray-900 p-4 pt-2 scrollbar-hide">
             <div className="flex flex-col gap-8 py-2">
               <div>
                 <img
                   src={logo}
                   alt="logo"
-                  width={70}
+                  className="w-[60px] h-[60px] md:w-[70px] md:h-[70px]"
                 />
               </div>
               <ul className="flex flex-col gap-4">
