@@ -6,11 +6,7 @@ import {
   FaReact,
   FaNodeJs,
 } from "react-icons/fa";
-import {
-  SiCplusplus,
-  SiJavascript,
-  SiCodechef,
-} from "react-icons/si";
+import { SiCplusplus, SiJavascript, SiCodechef } from "react-icons/si";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
@@ -29,7 +25,9 @@ const LeftBanner = () => {
   return (
     <div className="w-full lgl:w-1/2 flex flex-col gap-20">
       <div className="flex flex-col gap-5">
-        <h4 className="text-base md:text-lg font-normal">WELCOME TO MY PORTFOLIO</h4>
+        <h4 className="text-base md:text-lg font-normal">
+          WELCOME TO MY PORTFOLIO
+        </h4>
         <h1 className="text-5xl md:text-6xl font-bold text-white">
           Hi, I'm{" "}
           <span className="text-designcolor capitalize">Raunak Giri</span>
@@ -54,18 +52,42 @@ const LeftBanner = () => {
             find me in
           </h2>
           <div className="flex gap-4">
-            <span className="bannerIcon">
-              <FaLinkedinIn />
-            </span>
-            <span className="bannerIcon">
-              <FaGithub />
-            </span>
-            <span className="bannerIcon">
-              <FaInstagram />
-            </span>
-            <span className="bannerIcon">
-              <SiCodechef />
-            </span>
+            <a
+              href="https://www.linkedin.com/in/raunakgiri21/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="bannerIcon">
+                <FaLinkedinIn />
+              </span>
+            </a>
+            <a
+              href="https://github.com/raunakgiri21"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="bannerIcon">
+                <FaGithub />
+              </span>
+            </a>
+            <a
+              href="https://www.instagram.com/nostalgic.raunak/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="bannerIcon">
+                <FaInstagram />
+              </span>
+            </a>
+            <a
+              href="https://www.codechef.com/users/lifesucx"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="bannerIcon">
+                <SiCodechef />
+              </span>
+            </a>
           </div>
         </div>
         <div>

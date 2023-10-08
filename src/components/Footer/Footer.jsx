@@ -12,15 +12,33 @@ const Footer = () => {
           className="opacity-[85%]"
         />
         <div className="flex gap-4">
-          <span className="bannerIcon">
-            <FaGithub />
-          </span>
-          <span className="bannerIcon">
-            <FaLinkedinIn />
-          </span>
-          <span className="bannerIcon">
-            <FaInstagram />
-          </span>
+          <a
+            href="https://www.linkedin.com/in/raunakgiri21/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="bannerIcon">
+              <FaLinkedinIn />
+            </span>
+          </a>
+          <a
+            href="https://github.com/raunakgiri21"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="bannerIcon">
+              <FaGithub />
+            </span>
+          </a>
+          <a
+            href="https://www.instagram.com/nostalgic.raunak/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="bannerIcon">
+              <FaInstagram />
+            </span>
+          </a>
         </div>
       </div>
       <div className="w-full h-full">
