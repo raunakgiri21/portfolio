@@ -27,7 +27,7 @@ const Projects = () => {
           title="FOODSTRAP e-Commerce"
           des="MERN Stack Project with google signin/signup, product filter/search/sort, wishlist, add-to-cart, razorpay payment gateway."
           src={foodstrap}
-          gihtub="https://github.com/raunakgiri21/mern-ecommerce"
+          github="https://github.com/raunakgiri21/mern-ecommerce"
           link="https://ecommerce-raunak.up.railway.app/"
         />
         <ProjectCard
@@ -41,7 +41,7 @@ const Projects = () => {
           title="Netflix Clone"
           des="UI clone of Netflix built with ReactJS, other features are signin/signup/logout, using TMDB API."
           src={netflix}
-          gihtub="https://github.com/raunakgiri21/Netflix-UI-Clone"
+          github="https://github.com/raunakgiri21/Netflix-UI-Clone"
           link="https://netflix-clone-by-raunak.up.railway.app/signup"
         />
         <ProjectCard
