@@ -1,6 +1,6 @@
 # Link to Website
 
-- [Portfolio](www.raunak.live)
+- [Portfolio](https://www.raunak.live)
 
 # React + Vite
 
