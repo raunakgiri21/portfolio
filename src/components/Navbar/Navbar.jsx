@@ -10,7 +10,7 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   return (
-    <div className="w-full h-[76px] md:h-24 sticky top-0 mx-auto flex justify-between items-center font-titleFont z-50 border-b-[1px] border-b-gray-600 bg-bodyColor">
+    <div className="w-full max-w-screen-2xl h-[76px] md:h-24 sticky top-0 mx-auto flex justify-between items-center font-titleFont z-50 border-b-[1px] border-b-gray-600 bg-bodyColor">
       <div className="flex justify-between items-center gap-2">
         <img
           src={logo}
