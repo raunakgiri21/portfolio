@@ -28,21 +28,21 @@ const Projects = () => {
           des="MERN Stack Project with google signin/signup, product filter/search/sort, wishlist, add-to-cart, razorpay payment gateway."
           src={foodstrap}
           github="https://github.com/raunakgiri21/mern-ecommerce"
-          link="https://ecommerce-raunak.up.railway.app/"
+          // link="https://ecommerce-raunak.up.railway.app/"
         />
         <ProjectCard
           title="Mini Twitter Clone"
           des="MERN Stack mini project with signin/signup, create/like/delete a tweet, follow-unfollow, etc."
           src={twitter}
           github="https://github.com/raunakgiri21/Mini-Twitter-Clone"
-          link="https://exuberant-tie-tick.cyclic.cloud/"
+          // link="https://exuberant-tie-tick.cyclic.cloud/"
         />
         <ProjectCard
           title="Netflix Clone"
           des="UI clone of Netflix built with ReactJS, other features are signin/signup/logout, using TMDB API."
           src={netflix}
           github="https://github.com/raunakgiri21/Netflix-UI-Clone"
-          link="https://netflix-clone-by-raunak.up.railway.app/signup"
+          // link="https://netflix-clone-by-raunak.up.railway.app/signup"
         />
         <ProjectCard
           title="NIKE UI Clone"

@@ -6,15 +6,15 @@ import {
   FaReact,
   FaNodeJs,
 } from "react-icons/fa";
-import { SiCplusplus, SiJavascript, SiCodechef } from "react-icons/si";
+import { SiJavascript, SiCodechef, SiAngularjs } from "react-icons/si";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
     words: [
       "Software Engineer.",
       "Full Stack Developer.",
+      "Frontend Developer.",
       "Professional Coder.",
-      "ReactJS Developer.",
     ],
     loop: true,
     typeSpeed: 20,
@@ -41,7 +41,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I'm an aspiring Full Stack Developer, specializing in ReactJs. With
+          I'm a Software Developer, specializing in Full Stack App Development. With
           solid experience, I've completed several projects showcasing my
           proficiency in the field.
         </p>
@@ -102,10 +102,10 @@ const LeftBanner = () => {
               <FaReact />
             </span>
             <span className="bannerIcon">
-              <FaNodeJs />
+              <SiAngularjs />
             </span>
             <span className="bannerIcon">
-              <SiCplusplus />
+              <FaNodeJs />
             </span>
           </div>
         </div>

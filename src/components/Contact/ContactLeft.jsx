@@ -12,11 +12,11 @@ const ContactLeft = () => {
       <div className="flex flex-col gap-4">
         <h3 className="text-3xl font-bold text-white">Raunak Giri</h3>
         <p className="text-lg font-normal text-gray-400">
-          MERN Stack Developer
+          Full Stack Developer
         </p>
         <p className="text-base text-gray-500 tracking-wide italic">
-          Crafting seamless MERN experiences to elevate web applications - let's
-          build something amazing together!
+          Crafting seamless full-stack experiences using modern technologies to
+          elevate web applications - let's build something amazing together!
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone: <span className="text-lightText">+91 8638189725</span>

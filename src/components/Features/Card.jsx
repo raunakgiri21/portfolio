@@ -12,7 +12,11 @@ const Card = ({ title, icon, description }) => {
             <h2 className="text-xl md:text-2xl font-titleFont font-bold text-gray-300">
               {title}
             </h2>
-            <p className="base">{description}</p>
+            <p
+              className="base"
+              dangerouslySetInnerHTML={{ __html: description }}
+            >
+            </p>
           </div>
         </div>
       </div>

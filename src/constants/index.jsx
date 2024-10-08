@@ -32,20 +32,20 @@ export const navLinksdata = [
 export const featuresData = [
   {
     id: 1,
-    icon: <FaReact />,
-    title: "ReactJs Development",
-    des: "I have a solid foundation in developing dynamic user interfaces with React.js, utilizing its component-based approach to create engaging web applications.",
+    icon: <SiJavascript />,
+    title: "Full Stack Development",
+    des: "I have experience building full-stack applications with React.js, Angular, Express.js, and using Firebase and MongoDB for database management, along with Ionic for hybrid mobile app development.",
   },
   {
     id: 2,
-    icon: <SiJavascript />,
-    title: "Full Stack Development",
-    des: "Working with the MERN stack, I skillfully blend MongoDB, Express.js, React.js, and Node.js to craft dynamic web applications, guaranteeing a seamless user experience.",
+    icon: <FaReact />,
+    title: "Freelance & Full-Time Experience",
+    des: "I possess a diverse development background, having worked in both freelance and full-time roles, which enables me to adapt and thrive in different project environments.",
   },
   {
     id: 3,
     icon: <SiCodechef />,
     title: "Competitive Programming",
-    des: "I have solid experience in competitive programming, holding a 3 ⭐ CodeChef ranking, and demonstrating proficient problem-solving abilities.",
+    des: "I have solid experience in competitive programming, with a <b>Knight</b> ranking on LeetCode and a 3 ⭐ rating on CodeChef, demonstrating proficient problem-solving abilities.",
   },
 ];
